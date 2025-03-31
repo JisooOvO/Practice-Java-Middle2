@@ -8,6 +8,9 @@ public class JavaMapMain {
         run(new HashMap<>());
         run(new LinkedHashMap<>());
         run(new TreeMap<>());
+
+        // Map은 Set과 구조가 같다 -> 내부 데이터를 Entry를 사용
+        // Map.of 는 ImmutableMap!
     }
 
     private static void run(Map<String, Integer> map) {
